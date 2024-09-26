@@ -43,7 +43,7 @@ const Cart: React.FC<CartProps> = ({ closeCart }) => {
                                  <p>{item.name}</p>
                              </div>
                              <div className="buttons">
-                                 <div className="increasDecrease">
+                                 <div className="increaseDecrease">
                                      <button onClick={() => increaseQuantity(item.id)}>+</button>
                                      <span>{item.quantity}</span>
                                      <button onClick={() => decreaseQuantity(item.id)}>-</button>
